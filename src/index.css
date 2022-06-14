@@ -77,8 +77,8 @@ input:focus {
 
 .appCont {
   background-color: #0c272c;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 15px;

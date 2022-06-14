@@ -49,7 +49,7 @@ function App() {
                 <Form locations={locations} setsearchLocation={setsearchLocation} />
                 <div className='appCont'>
                   <CardLocationHeader locations={locations[searchLocation]} />
-                  <div className='contCard'>
+                  <div className='contCards'>
                     {locations?.[searchLocation].residents.map(resident => (
                       <CardLocation
                         resident={resident}
